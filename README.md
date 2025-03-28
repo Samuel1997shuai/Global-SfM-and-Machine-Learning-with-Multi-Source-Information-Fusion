@@ -1,8 +1,11 @@
 1.To build global Sfm, first install COLMAP dependencies and then build peoject using the following commands:
 
 mkdir build
+
 cd build
+
 cmake .. -GNinja
+
 ninja && ninja install
 
 2.After installation, one can run peoject by (starting from a database)
