@@ -1,18 +1,15 @@
-Getting Started
-To build global Sfm, first install COLMAP dependencies and then build peoject using the following commands:
+1.To build global Sfm, first install COLMAP dependencies and then build peoject using the following commands:
 
 mkdir build
 cd build
 cmake .. -GNinja
 ninja && ninja install
-Pre-compiled Windows binaries can be downloaded from the official release page.
 
-After installation, one can run peoject by (starting from a database)
+2.After installation, one can run peoject by (starting from a database)
 
 peoject mapper --database_path DATABASE_PATH --output_path OUTPUT_PATH --image_path IMAGE_PATH
 
 
-We also provide a guide on improving the obtained reconstruction, which can be found here
 
 Note:
 
